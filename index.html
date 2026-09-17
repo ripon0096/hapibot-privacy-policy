@@ -3,20 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - HapiBot (MEMORY)</title>
+    <title>Privacy Policy</title>
     <style>
         :root {
-            --primary: #2563eb;
-            --primary-dark: #1d4ed8;
+            --primary: #10b981;
+            --primary-dark: #059669;
             --bg: #f8fafc;
             --card-bg: #ffffff;
-            --text-main: #0f172a;
+            --text-main: #1e293b;
             --text-muted: #475569;
             --border: #e2e8f0;
-            --accent: #eff6ff;
-            --warning-bg: #fef3c7;
-            --warning-border: #f59e0b;
-            --warning-text: #92400e;
         }
         * {
             box-sizing: border-box;
@@ -24,244 +20,156 @@
             padding: 0;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             background-color: var(--bg);
             color: var(--text-main);
-            line-height: 1.7;
+            line-height: 1.8;
             padding: 40px 20px;
         }
         .container {
-            max-width: 860px;
+            max-width: 800px;
             margin: 0 auto;
             background: var(--card-bg);
-            padding: 45px 50px;
-            border-radius: 16px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            padding: 45px;
+            border-radius: 20px;
+            box-shadow: 0 4px 25px rgba(0, 0, 0, 0.06);
             border: 1px solid var(--border);
         }
         header {
+            text-align: center;
             border-bottom: 2px solid var(--border);
-            padding-bottom: 24px;
-            margin-bottom: 32px;
-        }
-        .badge {
-            display: inline-block;
-            background: var(--accent);
-            color: var(--primary);
-            font-size: 13px;
-            font-weight: 600;
-            padding: 4px 12px;
-            border-radius: 9999px;
-            margin-bottom: 12px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
+            padding-bottom: 25px;
+            margin-bottom: 30px;
         }
         h1 {
-            font-size: 30px;
+            font-size: 32px;
             font-weight: 800;
-            color: var(--text-main);
+            color: #0f172a;
             margin-bottom: 8px;
         }
-        .meta {
-            font-size: 14px;
-            color: var(--text-muted);
+        .subtitle {
+            font-size: 15px;
+            color: #64748b;
         }
         h2 {
             font-size: 20px;
             font-weight: 700;
-            color: #1e293b;
+            color: #0f172a;
             margin-top: 32px;
             margin-bottom: 12px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
         }
         p {
-            margin-bottom: 14px;
             color: var(--text-muted);
+            margin-bottom: 16px;
+            font-size: 15.5px;
+        }
+        .highlight-box {
+            background-color: #f0fdf4;
+            border-left: 4px solid #10b981;
+            padding: 20px 24px;
+            border-radius: 12px;
+            margin: 24px 0;
+        }
+        .highlight-box h3 {
+            color: #065f46;
+            font-size: 17px;
+            margin-bottom: 8px;
+        }
+        .highlight-box p {
+            color: #047857;
+            margin-bottom: 0;
         }
         ul {
-            margin-bottom: 16px;
+            margin-bottom: 20px;
             padding-left: 24px;
             color: var(--text-muted);
         }
         li {
-            margin-bottom: 8px;
+            margin-bottom: 10px;
+            font-size: 15px;
         }
-        .callout {
-            background-color: #f0fdf4;
-            border-left: 4px solid #22c55e;
-            padding: 16px 20px;
-            border-radius: 8px;
+        .step-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 16px;
             margin: 20px 0;
         }
-        .callout-title {
+        .step-card {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 18px 22px;
+        }
+        .step-title {
             font-weight: 700;
-            color: #15803d;
+            color: #0f172a;
             margin-bottom: 6px;
-        }
-        .prominent-disclosure {
-            background-color: #fffbeb;
-            border: 1px solid var(--warning-border);
-            border-left: 5px solid var(--warning-border);
-            padding: 20px;
-            border-radius: 8px;
-            margin: 24px 0;
-        }
-        .prominent-disclosure h3 {
-            color: var(--warning-text);
-            font-size: 17px;
-            margin-bottom: 10px;
-        }
-        .prominent-disclosure p {
-            color: #78350f;
-            margin-bottom: 10px;
-        }
-        .prominent-disclosure ul {
-            color: #78350f;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-        }
-        th, td {
-            text-align: left;
-            padding: 12px 14px;
-            border: 1px solid var(--border);
-            font-size: 14px;
-        }
-        th {
-            background: #f1f5f9;
-            font-weight: 600;
+            font-size: 16px;
         }
         footer {
             margin-top: 40px;
             padding-top: 20px;
             border-top: 1px solid var(--border);
-            font-size: 14px;
-            color: var(--text-muted);
             text-align: center;
-        }
-        a {
-            color: var(--primary);
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
+            font-size: 14px;
+            color: #94a3b8;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <span class="badge">Official Policy</span>
             <h1>Privacy Policy</h1>
-            <div class="meta">
-                <strong>Application:</strong> MEMORY / HapiBot (Package: <code>com.ripon.hapibot</code>)<br>
-                <strong>Developer:</strong> Ripon Chowdhury<br>
-                <strong>Effective Date:</strong> September 17, 2026
-            </div>
+            <p class="subtitle">Smart Automation & Touch Assistant</p>
         </header>
 
-        <p>This Privacy Policy applies to the <strong>MEMORY (HapiBot)</strong> mobile application (hereinafter referred to as the "Application") developed by <strong>Ripon Chowdhury</strong>. This document explains how information is collected, used, and protected when you use our Application.</p>
+        <h2>About the Application</h2>
+        <p>This application is designed as a smart automation utility. Its primary goal is to help users automate repetitive touch actions, tasks, and routine screen interactions easily and efficiently.</p>
 
-        <h2>1. Prominent Disclosure: Accessibility Service Usage</h2>
-        <div class="prominent-disclosure">
-            <h3>⚠️ AccessibilityService API Declaration & Compliance</h3>
-            <p>The Application uses Android's <strong>AccessibilityService API</strong> (specifically <code>AutoClickService</code>) to provide smart touch automation and assist users with automated repetitive actions in designated supported applications.</p>
-            <ul>
-                <li><strong>Purpose of Use:</strong> The Accessibility Service is strictly used to perform authorized automated tap, click, and gesture interactions initiated and scheduled by the user.</li>
-                <li><strong>No Keystroke or Password Logging:</strong> The Accessibility Service <strong>NEVER</strong> captures, tracks, or records personal keystrokes, passwords, financial details, PINs, or private chat messages.</li>
-                <li><strong>No Unauthorized Audio/Video/Screen Recording:</strong> The service does not perform audio recording, phone call capture, or background screen surveillance.</li>
-                <li><strong>User Consent & Control:</strong> The Accessibility Service is completely optional. It requires explicit user activation from Android System Settings (Accessibility) and can be enabled, paused, or revoked by the user at any time.</li>
-            </ul>
+        <h2>How the App Works</h2>
+        <div class="step-grid">
+            <div class="step-card">
+                <div class="step-title">1. Easy Setup</div>
+                <p>Users can customize click intervals, select required action targets, and configure preferences according to their personal needs.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-title">2. Screen Touch Automation</div>
+                <p>When started, the application uses Android's Accessibility feature to simulate touches, taps, and scrolls on behalf of the user, saving time and physical repetitive effort.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-title">3. Floating Control Overlay</div>
+                <p>A convenient floating menu stays on your screen, allowing you to instantly start, pause, or stop the automation at any moment with a single tap.</p>
+            </div>
         </div>
 
-        <h2>2. Permissions and Data We Collect</h2>
-        <p>To provide core automation and verification features, the Application requests specific permissions as outlined below:</p>
-
-        <table>
-            <thead>
-                <tr>
-                    <th>Permission</th>
-                    <th>Technical Identifier</th>
-                    <th>Purpose & Usage</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><strong>Accessibility Service</strong></td>
-                    <td><code>BIND_ACCESSIBILITY_SERVICE</code></td>
-                    <td>Performs simulated screen gestures and taps for assisted task automation when activated by the user.</td>
-                </tr>
-                <tr>
-                    <td><strong>Location Access</strong></td>
-                    <td><code>ACCESS_FINE_LOCATION</code>, <code>ACCESS_COARSE_LOCATION</code></td>
-                    <td>Used for region-specific service availability, network latency optimization, and device validation. Location data is NOT stored or sold.</td>
-                </tr>
-                <tr>
-                    <td><strong>Package Visibility</strong></td>
-                    <td><code>QUERY_ALL_PACKAGES</code></td>
-                    <td>Checks whether compatible target applications (such as Hapi or Masti) are installed on the device so the automation service can interface with them.</td>
-                </tr>
-                <tr>
-                    <td><strong>Foreground Service & Notifications</strong></td>
-                    <td><code>FOREGROUND_SERVICE</code>, <code>POST_NOTIFICATIONS</code></td>
-                    <td>Displays an ongoing notification while the automation service is active, ensuring user awareness and transparent background state.</td>
-                </tr>
-                <tr>
-                    <td><strong>Internet Access</strong></td>
-                    <td><code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code></td>
-                    <td>Used to check network connectivity, authenticate account licenses, and fetch service configurations.</td>
-                </tr>
-                <tr>
-                    <td><strong>System Alert Window</strong></td>
-                    <td><code>SYSTEM_ALERT_WINDOW</code></td>
-                    <td>Displays a floating overlay control button (Start/Stop) on top of the screen for direct user control.</td>
-                </tr>
-            </tbody>
-        </table>
-
-        <h2>3. Third-Party Services & Data Sharing</h2>
-        <p>We respect your privacy. <strong>We do NOT sell, rent, or trade your personal data to third parties or advertising networks.</strong></p>
-        <p>The Application may communicate with secure backend infrastructure (such as Firebase/Cloudflare) solely for:</p>
-        <ul>
-            <li>Verifying activation licenses and user subscriptions.</li>
-            <li>Receiving configuration parameters for app updates and security definitions.</li>
-            <li>Diagnostic error logging to maintain stability and prevent crashes.</li>
-        </ul>
-
-        <h2>4. Data Retention and Security</h2>
-        <p>We implement industry-standard technical safeguards to protect any operational settings and data transmitted by the Application. No sensitive personal credentials, chat histories, or credit card numbers are collected, transmitted, or stored on our servers.</p>
-
-        <h2>5. User Rights and Data Deletion</h2>
-        <p>You have full control over your device and data:</p>
-        <ul>
-            <li><strong>Revoke Permissions:</strong> You can disable any permission (Accessibility, Location, Notifications) at any time through your device's <em>Settings &gt; Apps &gt; MEMORY</em>.</li>
-            <li><strong>Uninstall:</strong> Uninstalling the Application permanently removes all local caches, databases, and preferences stored on your device.</li>
-            <li><strong>Request Account / Data Removal:</strong> If you wish to request the deletion of any associated account identifiers or license data, you can contact us directly via email.</li>
-        </ul>
-
-        <h2>6. Children's Privacy</h2>
-        <p>Our Application is not directed to children under the age of 13. We do not knowingly collect or solicit personal information from children under 13. If we become aware that we have collected information from a child under 13 without parental consent, we will promptly delete that information.</p>
-
-        <h2>7. Changes to This Privacy Policy</h2>
-        <p>We may update our Privacy Policy from time to time to reflect changes in practices or legal requirements. You are advised to review this page periodically for any changes. Continued use of the Application signifies acceptance of the updated policy.</p>
-
-        <h2>8. Contact Us</h2>
-        <div class="callout">
-            <div class="callout-title">Developer Contact Information</div>
-            <p>If you have questions, feedback, or privacy-related inquiries regarding this Privacy Policy or the Application, please contact:</p>
-            <p><strong>Developer:</strong> Ripon Chowdhury<br>
-            <strong>Email:</strong> <a href="mailto:ripon0096@gmail.com">ripon0096@gmail.com</a><br>
-            <strong>GitHub:</strong> <a href="https://github.com/ripon0096" target="_blank" rel="noopener">https://github.com/ripon0096</a><br>
-            <strong>Repository:</strong> <a href="https://github.com/ripon0096/hapibot-privacy-policy" target="_blank" rel="noopener">https://github.com/ripon0096/hapibot-privacy-policy</a></p>
+        <h2>Accessibility Service & User Safety</h2>
+        <div class="highlight-box">
+            <h3>🛡️ Strict Privacy Commitment</h3>
+            <p>The application strictly respects your privacy and operates under transparent safety principles:</p>
         </div>
+        <ul>
+            <li><strong>No Personal Data Recording:</strong> The app does <strong>NOT</strong> record, read, or track your personal messages, private chats, passwords, keystrokes, or banking details.</li>
+            <li><strong>User-Controlled:</strong> The automation only runs when you explicitly turn it on. You have total control to pause, stop, or disable it at any time.</li>
+            <li><strong>No Screen Surveillance:</strong> The app does not record your screen, video, or audio in the background.</li>
+            <li><strong>No Data Selling:</strong> We do not collect, sell, trade, or share any personal user data with third-party advertisers or marketing companies.</li>
+        </ul>
+
+        <h2>Device Permissions</h2>
+        <p>To perform its intended automation tasks, the application requires only minimal, necessary system permissions:</p>
+        <ul>
+            <li><strong>Accessibility:</strong> Required to perform taps and interactions that you have instructed the app to execute.</li>
+            <li><strong>Display Over Other Apps:</strong> Used solely to provide the floating start and stop controls.</li>
+            <li><strong>Notifications & Service:</strong> Keeps you clearly notified whenever the assistant is actively running.</li>
+        </ul>
+
+        <h2>Data Security and Control</h2>
+        <p>Your preferences and settings remain safely stored on your own device. You can turn off the accessibility service at any time through your phone's system settings, or simply uninstall the application to remove all related data completely.</p>
+
+        <h2>Policy Updates</h2>
+        <p>We may update this policy if new features are added. Any updates will always maintain our commitment to your privacy and transparent operation.</p>
 
         <footer>
-            <p>&copy; 2026 Ripon Chowdhury. All rights reserved.</p>
-            <p><small>Application Package: com.ripon.hapibot | MEMORY (HapiBot)</small></p>
+            <p>&copy; 2026 Smart Automation Assistant. All rights reserved.</p>
         </footer>
     </div>
 </body>

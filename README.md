@@ -1,38 +1,52 @@
-# Privacy Policy for MEMORY / HapiBot (`com.ripon.hapibot`)
+# Privacy Policy
 
-**Developer:** Ripon Chowdhury  
-**Effective Date:** September 17, 2026  
-**Online Web Link:** [https://ripon0096.github.io/hapibot-privacy-policy/](https://ripon0096.github.io/hapibot-privacy-policy/)
+### Smart Automation & Touch Assistant
 
 ---
 
-## 1. Overview
-This Privacy Policy describes how the **MEMORY (HapiBot)** mobile application (Package Name: `com.ripon.hapibot`) handles data.
+## About the Application
+This application is designed as a smart automation utility. Its primary goal is to help users automate repetitive touch actions, tasks, and routine screen interactions easily and efficiently.
 
-## 2. Prominent Disclosure: Accessibility Service Usage
-The Application uses Android's **AccessibilityService API** (`AutoClickService`) solely to assist users with automated routine touch interactions and task scheduling in designated supported applications.
+---
 
-* **No Personal Data Collection:** The Accessibility Service **NEVER** monitors, captures, logs, or stores personal keystrokes, passwords, financial information, or private messages.
-* **No Unauthorized Recording:** The service does not record audio or capture device screens in the background.
-* **User Consent:** The service is strictly voluntary and must be explicitly enabled by the user in the device's System Accessibility Settings. The user can revoke or pause it at any time.
+## How the App Works
 
-## 3. Permissions & Data Collection
-| Permission | Identifier | Purpose |
-|---|---|---|
-| **Accessibility Service** | `BIND_ACCESSIBILITY_SERVICE` | Executes automated touch actions on supported screens when requested by the user. |
-| **Location** | `ACCESS_FINE_LOCATION`, `ACCESS_COARSE_LOCATION` | Used for region-based compatibility and verification. Not shared with advertisers. |
-| **Query Packages** | `QUERY_ALL_PACKAGES` | Detects installed target applications (e.g. Hapi, Masti) to enable automation functions. |
-| **Foreground Service & Alerts** | `FOREGROUND_SERVICE`, `POST_NOTIFICATIONS` | Displays persistent notification while service is active for transparency. |
-| **Network Access** | `INTERNET`, `ACCESS_NETWORK_STATE` | Used for account/license verification and app configuration sync. |
-| **Overlay Window** | `SYSTEM_ALERT_WINDOW` | Displays floating control button (Start/Stop) for direct user control. |
+1. **Easy Setup:**  
+   Users can customize click intervals, select required action targets, and configure preferences according to their personal needs.
 
-## 4. Third-Party Sharing
-We **do not** sell, rent, or share personal user data with third-party advertisers or data brokers.
+2. **Screen Touch Automation:**  
+   When started, the application uses Android's Accessibility feature to simulate touches, taps, and scrolls on behalf of the user, saving time and physical repetitive effort.
 
-## 5. User Control & Data Deletion
-Users can revoke any permission via Android Settings or uninstall the app at any time to remove all local data. For account/license deletion requests, contact the developer.
+3. **Floating Control Overlay:**  
+   A convenient floating menu stays on your screen, allowing you to instantly start, pause, or stop the automation at any moment with a single tap.
 
-## 6. Contact
-* **Developer:** Ripon Chowdhury
-* **Email:** [ripon0096@gmail.com](mailto:ripon0096@gmail.com)
-* **GitHub Profile:** [https://github.com/ripon0096](https://github.com/ripon0096)
+---
+
+## Accessibility Service & User Safety
+
+The application strictly respects your privacy and operates under transparent safety principles:
+
+* **No Personal Data Recording:** The app does **NOT** record, read, or track your personal messages, private chats, passwords, keystrokes, or banking details.
+* **User-Controlled:** The automation only runs when you explicitly turn it on. You have total control to pause, stop, or disable it at any time.
+* **No Screen Surveillance:** The app does not record your screen, video, or audio in the background.
+* **No Data Selling:** We do not collect, sell, trade, or share any personal user data with third-party advertisers or marketing companies.
+
+---
+
+## Device Permissions
+
+To perform its intended automation tasks, the application requires only minimal, necessary system permissions:
+
+* **Accessibility:** Required to perform taps and interactions that you have instructed the app to execute.
+* **Display Over Other Apps:** Used solely to provide the floating start and stop controls.
+* **Notifications & Service:** Keeps you clearly notified whenever the assistant is actively running.
+
+---
+
+## Data Security and Control
+Your preferences and settings remain safely stored on your own device. You can turn off the accessibility service at any time through your phone's system settings, or simply uninstall the application to remove all related data completely.
+
+---
+
+## Policy Updates
+We may update this policy if new features are added. Any updates will always maintain our commitment to your privacy and transparent operation.
